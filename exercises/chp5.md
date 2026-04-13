@@ -58,10 +58,14 @@ class SayDays:
 
 
 while True:
-    try:
-        y, m, d = map(int, input().split())
-        s = SayDays(y, m, d)
-        print(s.days(), s.days_left(), s.weekday(), s.weekday_name())
-    except:
-        break
+    y = int(input("년 입력: "))
+    m = int(input("월 입력: "))
+    d = int(input("일 입력: "))
+
+    date = SayDays(y, m, d)
+
+    print("경과 일수 :", date.days())
+    print("남은 일수 :", date.days_left())
+    print("요일 이름 :", date.weekday_name())
+    print("-" * 20)
 ```
