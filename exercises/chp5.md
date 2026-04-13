@@ -1,3 +1,5 @@
+# chp5 연습문제
+
 3. 다음 조건으로 클래스와 그 클래스를 사용하는 프로그램을 만드세요.
 [조건1] 클래스 만들기
 - 클래스 이름 : SayDays
@@ -14,6 +16,7 @@
 - while True :
 - input 문으로 임의의 날짜 입력받음
 - days( ), days_left( ), week( ), week_name( )을 출력
+
 
 ```
 class SayDays:
