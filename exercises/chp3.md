@@ -13,14 +13,14 @@
 - 다음과 같은 형식으로 표현합니다. sensors = {'dht11': { 중략 } , 중략 }
 ```
 sensors = {
-    'dht11': {
-        'temperature': 23,
-        'humidity': 47,
-        'unit': 'celsius'
+    "dht11": {
+        "temp": 23,
+        "humidity": 47,
+        "unit": "celsius"
     },
-    'bh1750': {
-        'illuminance': 450,
-        'unit': 'lux'
+    "bh1750": {
+        "illuminance": 450,
+        "unit": "lux"
     }
 }
 ```
